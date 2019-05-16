@@ -237,7 +237,7 @@
         },
         dynamicMapLayers: {
           stormwater: {
-            url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data/MapServer',
+            url: '//stormwater.phila.gov/arcgis/rest/services/parcel_viewer',
             opacity: 1.0
           },
           zoning: {
