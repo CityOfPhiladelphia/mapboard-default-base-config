@@ -215,12 +215,10 @@
         },
         tiledLayers: {
           cityBasemapLabels: {
-            https:// type: 'labels',
             url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Labels/MapServer',
             zIndex: '3',
           },
           dorBasemapLabels: {
-            https:// type: 'labels',
             url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/DORBasemap_Labels/MapServer',
             zIndex: '3',
           },
@@ -228,7 +226,6 @@
             url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_Labels/MapServer',
             zIndex: '3',
             attribution: 'overwrite',
-            https:// attribution: ' ',
           },
           parcels: {
             url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/',
@@ -255,7 +252,6 @@
           },
           pwdParcels: {
             url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PWD_PARCELS/FeatureServer/0',
-            https:// url: 'https://gis.phila.gov/arcgis/rest/services/Water/pv_data_geodb2/MapServer/0',
           },
           streetTrees: {
             url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Philadelphia_Street_Trees/FeatureServer/0',
