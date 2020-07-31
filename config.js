@@ -40,6 +40,13 @@
           2: 295828775.300000,
           1: 591657550.500000,
         },
+        mbStyle: {
+          version: 8,
+          sources: {},
+          // glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf',
+          glyphs: 'http://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
+          layers: [],
+        },
         basemapSources: {
           pwd: {
             source: {
