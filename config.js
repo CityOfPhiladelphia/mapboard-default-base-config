@@ -11,6 +11,13 @@
           include_units: true,
         },
       },
+      mbStyle: {
+        version: 8,
+        sources: {},
+        // glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf',
+        glyphs: 'http://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
+        layers: [],
+      },
       map: {
         center: [-75.163471, 39.953338],
         minZoom: 11,
@@ -39,13 +46,6 @@
           3: 147914387.600000,
           2: 295828775.300000,
           1: 591657550.500000,
-        },
-        mbStyle: {
-          version: 8,
-          sources: {},
-          // glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf',
-          glyphs: 'http://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
-          layers: [],
         },
         basemapSources: {
           pwd: {
