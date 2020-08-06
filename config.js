@@ -293,14 +293,14 @@
             },
             source: {
               tiles: [ '\
-        https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/export?dpi=110\
-        &transparent=true\
-        &format=png36\
-        &bbox={bbox-epsg-3857}\
-        &bboxSR=3857\
-        &imageSR=3857\
-        &size=512,512\
-        &f=image\
+https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/export?dpi=110\
+&transparent=true\
+&format=png36\
+&bbox={bbox-epsg-3857}\
+&bboxSR=3857\
+&imageSR=3857\
+&size=512,512\
+&f=image\
             ' ],
               // type: 'raster',
               // tileSize: 256,
