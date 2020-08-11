@@ -350,7 +350,7 @@ https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_I
               tileSize: 256,
             },
             layer: {
-              id: 'parcelImageryOverlay',
+              id: 'parcels',
               type: 'raster',
             },
           }
