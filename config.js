@@ -343,15 +343,17 @@ https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_I
           },
         },
         tiledOverlaySources: {
-          source: {
-            tiles: [ 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/tile/{z}/{y}/{x}' ],
-            type: 'raster',
-            tileSize: 256,
-          },
-          layer: {
-            id: 'parcelImageryOverlay',
-            type: 'raster',
-          },
+          parcels: {
+            source: {
+              tiles: [ 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/tile/{z}/{y}/{x}' ],
+              type: 'raster',
+              tileSize: 256,
+            },
+            layer: {
+              id: 'parcelImageryOverlay',
+              type: 'raster',
+            },
+          }
         },
         overlaySources: {
           zoning: {
