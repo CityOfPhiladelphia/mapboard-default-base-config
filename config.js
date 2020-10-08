@@ -74,6 +74,19 @@
               type: 'raster',
             },
           },
+          imagery2020: {
+            source: {
+              tiles: [
+                'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2020_3in/MapServer/tile/{z}/{y}/{x}',
+              ],
+              type: 'raster',
+              tileSize: 256,
+            },
+            layer: {
+              id: 'imagery2020',
+              type: 'raster',
+            },
+          },
           imagery2019: {
             source: {
               tiles: [
