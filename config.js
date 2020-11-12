@@ -15,6 +15,7 @@
         version: 8,
         sources: {},
         // glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf',
+        // glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf',
         glyphs: '//fonts.openmaptiles.org/{fontstack}/{range}.pbf',
         layers: [],
       },
