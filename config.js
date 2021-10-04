@@ -377,10 +377,11 @@ https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_I
               minzoom: 0,
               maxzoom: 22,
             },
+            // https://gis-svc.databridge.phila.gov/arcgis/rest/services/Atlas/ZoningMap/MapServer/export?dpi=110\
             source: {
               tileSize: 2048,
               tiles: [ '\
-        https://gis-svc.databridge.phila.gov/arcgis/rest/services/Atlas/ZoningMap/MapServer/export?dpi=110\
+        https://citygeo-geocoder-aws.phila.city/arcgis/rest/services/ZoningMap/MapServer/export?dpi=110
         &transparent=true\
         &format=png36\
         &bbox={bbox-epsg-3857}\
