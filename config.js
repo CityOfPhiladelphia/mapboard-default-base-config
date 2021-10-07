@@ -381,7 +381,7 @@ https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_I
             source: {
               tileSize: 2048,
               tiles: [ '\
-        https://citygeo-geocoder-pub.databridge.phila.gov/arcgis/rest/services/Atlas/ZoningMap/MapServer/export?dpi=110
+        https://citygeo-geocoder-pub.databridge.phila.gov/arcgis/rest/services/Atlas/ZoningMap/MapServer/export?dpi=110\
         &transparent=true\
         &format=png36\
         &bbox={bbox-epsg-3857}\
