@@ -431,6 +431,17 @@ https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_I
             type: 'featuremap',
             attribution: 'Parcels: Department of Records'
           },
+          imagery2022: {
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2022_2in/MapServer/',
+            label: '2022',
+            tiledLayers: [
+              'imageryBasemapLabels',
+              'parcels'
+            ],
+            type: 'imagery',
+            year: 2022,
+            attribution: 'Imagery 2022'
+          },
           imagery2020: {
             url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2020_3in/MapServer/',
             label: '2020',
