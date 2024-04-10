@@ -75,6 +75,19 @@
               type: 'raster',
             },
           },
+          imagery2023: {
+            source: {
+              tiles: [
+                'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2023/MapServer/tile/{z}/{y}/{x}',
+              ],
+              type: 'raster',
+              tileSize: 256,
+            },
+            layer: {
+              id: 'imagery2023',
+              type: 'raster',
+            },
+          },
           imagery2022: {
             source: {
               tiles: [
@@ -444,6 +457,17 @@ https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_I
             ],
             type: 'featuremap',
             attribution: 'Parcels: Department of Records'
+          },
+          imagery2023: {
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2023/MapServer/',
+            label: '2023',
+            tiledLayers: [
+              'imageryBasemapLabels',
+              'parcels'
+            ],
+            type: 'imagery',
+            year: 2023,
+            attribution: 'Imagery 2023'
           },
           imagery2022: {
             url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2022_2in/MapServer/',
